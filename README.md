@@ -1,11 +1,24 @@
-# 🏬 Walmart Sales Forecasting – Time Series Analysis
+<p align="center">
+  <h1>🏬 Walmart Sales Forecasting – Time Series Analysis</h1>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-blue">
+  <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-green">
+  <img src="https://img.shields.io/badge/Matplotlib-Visualization-orange">
+  <img src="https://img.shields.io/badge/Statsmodels-Time%20Series-yellow">
+  <img src="https://img.shields.io/badge/Model-ARIMA-red">
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen">
+</p>
+
 ## 📌 Project Overview
 
 This project analyzes Walmart store sales data to uncover patterns, trends, and seasonal behaviors, and to forecast future weekly sales using time series techniques. 
 The analysis is based on the **Walmart Recruiting Store Sales Forecasting dataset**, a real-world dataset used in a Kaggle competition.
+
 ---
 
-## 🎯 Objectives
+## Objectives
 - Analyze historical sales data
 - Identify trends and seasonal patterns
 - Test for stationarity
@@ -182,13 +195,13 @@ The ARIMA model was evaluated by comparing its predictions against a held-out te
 
 ---
 
-## 💼 Business Impact
+## Business Impact
 | Impact Area | Benefit |
 |-------------|---------|
-| 📦 Inventory Management | Reduce overstock and stockouts with demand forecasts |
-| 👥 Workforce Planning | Align staffing levels to predicted sales peaks |
-| 📈 Promotion Timing | Schedule promotions when demand patterns suggest uplift |
-| 🧠 Decision Making | Replace guesswork with data-driven planning |
+|  Inventory Management | Reduce overstock and stockouts with demand forecasts |
+|  Workforce Planning | Align staffing levels to predicted sales peaks |
+|  Promotion Timing | Schedule promotions when demand patterns suggest uplift |
+|  Decision Making | Replace guesswork with data-driven planning |
 
 ---
 
@@ -198,13 +211,39 @@ The results show that sales are stable with seasonal fluctuations, and forecasti
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 - Implement SARIMA for seasonal modeling
 - Add confidence intervals to forecasts
 - Hyperparameter tuning for better accuracy
 
 ---
 
+
+##  Learning Outcome
+- Mastered time series analysis techniques including stationarity testing, trend analysis, seasonal decomposition, and forecasting.
+- Gained practical experience in applying ARIMA models to real-world retail data.
+- Developed the ability to translate data insights into business decisions.
+
+---
+
+## ❓ Interview Preparation
+
+### What is Stationarity?
+Stationarity refers to a time series whose statistical properties, such as mean and variance, remain constant over time.  
+It is important because most time series models, including ARIMA, require stationary data to produce reliable forecasts.
+
+---
+
+### What is Seasonal Decomposition?
+Seasonal decomposition is a technique used to break a time series into three components:
+- Trend (long-term movement)
+- Seasonality (repeating patterns)
+- Residual (random noise)
+
+This helps in understanding underlying patterns and improving forecasting accuracy.
+
+---
+
 ## 👩‍💻 Author
-**Marianne Sarange**  
+**Marianne Ongondi**  
 
